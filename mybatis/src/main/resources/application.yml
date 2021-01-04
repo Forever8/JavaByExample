@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    platform: mariadb
+    driverClassName: org.mariadb.jdbc.Driver
+    username: huan
+    password: huan
+    url: jdbc:mysql://ubuntu0192:3306/wishing
+mybatis:
+  mapperLocations: mybatis/*Mapper.xml
