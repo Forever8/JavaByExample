@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    platform: postgres
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://ubuntu0192:5432/wishing
+mybatis:
+  mapperLocations: mybatis/*Mapper.xml
+
